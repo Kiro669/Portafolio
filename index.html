@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi Portafolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- Menú Principal -->
+    <nav id="menu">
+        <ul>
+            <li><a href="#sobre-mi">Sobre Mí</a></li>
+            <li><a href="#skills-hobbies">Skills y Hobbies</a></li>
+            <li><a href="#formacion-academica">Formación Académica</a></li>
+            <li><a href="#proyectos">Proyectos</a></li>
+            <li><a href="#contacto">Contacto</a></li>
+        </ul>
+    </nav>
+
+    <!-- Sección Sobre Mí -->
+    <section id="sobre-mi">
+        <img src="perfil.jpg" alt="Imagen de perfil" class="perfil">
+        <img src="banner.jpg" alt="Imagen de banner" class="banner">
+        <div class="datos-personales">
+            <h2>Nombre: Pablo Sebastian Garduza Cu</h2>
+            <p>Edad: 22 años</p>
+            <p>Nacionalidad: Mexicana</p>
+            <p>Biografía: Desarrollador Web y estudiante de Ingeniería en Sistemas Computacionales.</p>
+        </div>
+        <div class="redes-sociales">
+            
+            <a href="https://github.com">GitHub</a>
+        </div>
+    </section>
+
+    <!-- Sección Skills y Hobbies -->
+    <section id="skills-hobbies">
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML</li>
+            <li>CSS</li>
+            <li>JavaScript</li>
+            <li>Android</li>
+        
+        </ul>
+        <h2>Hobbies</h2>
+        <ul>
+            <li>Videojuegos</li>
+            <li>Viajar</li>
+            <li>Esuchar musica</li>
+            <li>Ciclismo</li>
+        </ul>
+    </section>
+
+    <!-- Sección Formación Académica -->
+    <section id="formacion-academica">
+        <h2>Formación Académica</h2>
+        <ul>
+            <li>Ingeniería en Sistemas Computacionales - En el Instituto Tecnologico Superior de Champoton</li>
+         
+        </ul>
+    </section>
+
+    <!-- Sección Proyectos -->
+    <section id="proyectos">
+        <h2>Proyectos</h2>
+        <div class="proyecto">
+            <img src="E.png" alt="Imagen del proyecto">
+            <h3>Proyecto 1</h3>
+            <p>Descripción breve del proyecto. Tecnologías y funcionalidades implementadas en la aplicación.</p>
+            <a href="https://github.com/Kiro669/PrimerC.git" class="github-btn">Ver en GitHub</a>
+        </div>
+        
+    </section>
+
+    <!-- Formulario de Contacto -->
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <form>
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required>
+
+            <label for="email">Correo Electrónico:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="tema">Tema:</label>
+            <input type="text" id="tema" name="tema" required>
+
+            <label for="mensaje">Mensaje:</label>
+            <textarea id="mensaje" name="mensaje" required></textarea>
+
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+
+    <!-- Scripts -->
+    <script src="scripts.js"></script>
+</body>
+</html>
